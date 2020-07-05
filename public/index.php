@@ -13,6 +13,9 @@ $app->get(
         print("Hello World");
         return $response;
     }
+    ///firstslim/public/helloのリクエストがきた場合、関数を返す
+    //今回はHelloWorldを返している
 );
 
 $app->run();
+//run()でslimの処理を走らせている
